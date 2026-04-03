@@ -1,10 +1,10 @@
-#it is a job of internal memory management , interpreter check if value is already in memory then same address is given
-#bcz we need temporary memory while running
-
-math = 50
-chem = 50
-print(id(math))
-print(id(chem))
-
-hindi = 40
-print(id(hindi))
+print('Subject Marks : ')
+phy  = 50
+chem = 60
+math  = 70
+print("physics  = {}  chemistry = {}  Math = {} ".format(phy,chem,math))
+print("physics  {0}  chemistry = {1}  Math = {2}".format(phy,chem,math))
+print("physics = {x}  chemistry = {y} Math = {z}".format(x=phy,y=chem,z=math))
+total = phy+chem+math
+print("Total Marks",f"{total}")
+print("Roll No=","7".zfill(4))

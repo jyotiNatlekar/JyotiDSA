@@ -1,10 +1,6 @@
-#id function is used to find address
-
-math = 50
-name = "jyoti"
-pi = 3.14
-result = True
-print(id(math))
-print(id(name))
-print(id(pi))
-print(id(result))
+s = "Python is a High level programming Language"
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print(s.title())
+print(s.capitalize())
