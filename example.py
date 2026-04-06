@@ -1,25 +1,17 @@
-# arr = [1,-2,3,6,-4,-8]
-# positive = []
-# neg = []
-# final =[]
+# dict = {"name":"jyoti" , "age" : 30}
+# for x in dict:
+#     if x == "age":
+#       print("key : ",x)
+#       print("key exists")
 
-# for i in arr:
-#     if i > 0 :
-#         positive.append(i)
-#     else:
-#         neg.append(i)
-# print(positive)
-# print(neg)
-
-# for i,j in zip(positive,neg):
-#     final.append(i)
-#     final.append(j)
-# print(final)
-
-input = [3,3,4,2,4,4,2,4,4]
-p = len(input)
-print(p)
-new = []
+input = [1,2,2,3,4,3,5]
+frequency = {}
 count = 0
-for i in p:
-    if p > count/2:
+for i in range(len(input)):
+    if i not in frequency:
+        frequency[i] = frequency[i] + 1
+    elif i in frequency:
+        count += 1
+print(frequency)
+print(count)
+#op -- {1: , 2: }
